@@ -2,4 +2,6 @@ Notes on development cycle -
 
 * March 21st, started building HTML code and created sections of Home Page. Linked Blog page and Contact page to Nav element. Committed new changes to Github to backup work done so far.
 
-* March 22nd, working on implementing Bootstrap framework. 
+* March 22nd, working on implementing Bootstrap framework. Researching which way I want to use Bootstrap (import URL or download locally).
+
+* March 23rd, working more on implementing Bootstrap and using the grid layout. Adding the nav-bar element and reading the docs on bootstrap for layout and positioning. 
