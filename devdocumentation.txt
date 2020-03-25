@@ -5,3 +5,5 @@ Notes on development cycle -
 * March 22nd, working on implementing Bootstrap framework. Researching which way I want to use Bootstrap (import URL or download locally).
 
 * March 23rd, working more on implementing Bootstrap and using the grid layout. Adding the nav-bar element and reading the docs on bootstrap for layout and positioning. 
+
+* March 25th, got the basic layout of the homepage done, need to work on styling and the other pages that will be linked to the homepage. Also drew a site map by hand and a basic layout on paper to help me get things organized and where I want them. Need to add a footer next, and also can't forget to add Twitter and YouTube to Contact Me dropdown. Taking a break at 3:00pm to get some fresh air for a little bit. Been in front of my computer for a few hours and need to rest my eyes.
