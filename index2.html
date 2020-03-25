@@ -14,27 +14,75 @@
     <title>The Bored Man Blog | Home</title>
 </head>
 <!-- start of body -->
-<body background="img/bodybg.jpg">
+<body style="background-color: rgb(196, 236, 237);">
 <!-- start of nav-bar -->
-    <div class="container-fluid border border-info nav-fixed-top" style="background-color: aqua;">
-        <nav-bar class="container-fluid">
-            <li><a href="index2.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contactMe.html">Contact</a></li>
-        </nav-bar>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#index2.html">The Bored Man Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contact Me
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">GitHub</a>
+            <!-- Need to add LinkedIn profile link -->
+            <a class="dropdown-item" href="#">LinkedIn</a>
+            <!-- Need to come back to this and make it link to sending me an email -->
+            <a class="dropdown-item" href="#">Facebook</a>
+            <a class="dropdown-item" href="#">Email</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://codelouisville.org/" tabindex="-1" aria-disabled="true">Code Louisville</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Blog Posts</button>
+      </form>
     </div>
+  </nav>
 <!-- end of nav-bar -->
 
-<!-- start of heading -->
-    <div class="container-fluid text-center mx-auto">
-        <h1 class="display-1 mb-5" style="margin-top: 100px";>The Bored Man Blog</h1>
-    </div>
-<!-- end of heading -->
+<!-- start of jumbotron -->
+<div class="jumbotron jumbotron-fluid" style="background-color: rgb(120, 194, 194);">
+  <div class="container text-sm-center pt-5">
+    <h1 class="display-1 text-sm-center">The Bored Man Blog</h1>
+    <p class="lead">A space to view portfolio projects, read blog posts of things I am interested in, and just a place to get to know me.</p>
+  </div>
+</div>
+<!-- end of jumbotron -->
 
 <!-- start of content -->
-    <div class="container-lg">
-        <p class="lead">Welcome to my blog, my name is Nick Boardman. [More text will go here as I build the site, this is just placeholder text.]</p>
-    </div>
+      <div class="row">
+        <div class="container col-md-9 mb-5 ml-5 mr-5" style="background-color: whitesmoke">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Imperdiet dui accumsan sit amet nulla facilisi. Sed velit dignissim sodales ut eu sem integer. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Dui vivamus arcu felis bibendum ut tristique et. Nunc congue nisi vitae suscipit tellus mauris a diam. Pellentesque habitant morbi tristique senectus et. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Egestas purus viverra accumsan in nisl. Vitae semper quis lectus nulla at volutpat diam ut. Vel risus commodo viverra maecenas accumsan.
+
+            Sit amet facilisis magna etiam tempor. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Nunc scelerisque viverra mauris in aliquam sem. Neque ornare aenean euismod elementum. Sem integer vitae justo eget magna fermentum. Mi quis hendrerit dolor magna eget est. Lectus nulla at volutpat diam ut venenatis tellus. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Cras ornare arcu dui vivamus arcu felis. Blandit turpis cursus in hac habitasse platea dictumst. In vitae turpis massa sed elementum tempus egestas. Eget mi proin sed libero enim.
+
+            Sit amet justo donec enim diam. Amet dictum sit amet justo donec enim diam vulputate ut. Quis varius quam quisque id diam vel quam. Etiam non quam lacus suspendisse. Egestas congue quisque egestas diam in. Orci a scelerisque purus semper eget duis at tellus at. Proin fermentum leo vel orci porta non. Feugiat sed lectus vestibulum mattis ullamcorper velit. Pellentesque habitant morbi tristique senectus. Vel fringilla est ullamcorper eget nulla facilisi etiam.</p>
+        </div>
+
+<!-- start of twitter api -->
+
+        <div class="container col-md ml-5 mb-5 mr-5" style="background-color: whitesmoke;">
+          Twitter API will go here.
+        </div>
+
+<!-- end of twitter api -->
+      </div>
 <!-- end of content -->
 
     <!-- Optional JavaScript -->
