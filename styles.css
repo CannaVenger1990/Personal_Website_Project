@@ -3,7 +3,7 @@ body, html {
   }
   .background {
     /* The image used */
-    background-image: img/bodybg.jpg);
+    background-image: ../img/bodybg.jpg;
 
     /* Full height */
     height: 100%;
@@ -13,3 +13,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+/* #twitterAPI {
+    max-height: 50px;
+    max-width: 100px;
+} */
