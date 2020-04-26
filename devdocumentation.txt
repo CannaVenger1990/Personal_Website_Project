@@ -10,3 +10,4 @@ Notes on development cycle -
 
 * April 25th, haven't been able to do a whole lot on my project with everything happening with the virus. Today I am jumping back in researching how to implement the Twitter API into my website. Ended up getting the Twitter API working today, and now I need to get the content and stuff to be responsive so I can have it look right. Also need to finish my social media links. Study more about what to implement with React.
 
+* April 26th, working on getting the layout right on index2.html file. The widget is working correctly, but it is not behaving as it should for mobile first, and when it is expanded for a larger screen, it is not jumping to the ride side on the viewport as it should. 
