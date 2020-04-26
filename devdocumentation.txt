@@ -8,5 +8,5 @@ Notes on development cycle -
 
 * March 25th, got the basic layout of the homepage done, need to work on styling and the other pages that will be linked to the homepage. Also drew a site map by hand and a basic layout on paper to help me get things organized and where I want them. Need to add a footer next, and also can't forget to add Twitter and YouTube to Contact Me dropdown. Taking a break at 3:00pm to get some fresh air for a little bit. Been in front of my computer for a few hours and need to rest my eyes.
 
-* April 25th, haven't been able to do a whole lot on my project with everything happening with the virus. Today I am jumping back in researching how to implement the Twitter API into my website.
+* April 25th, haven't been able to do a whole lot on my project with everything happening with the virus. Today I am jumping back in researching how to implement the Twitter API into my website. Ended up getting the Twitter API working today, and now I need to get the content and stuff to be responsive so I can have it look right. Also need to finish my social media links. Study more about what to implement with React.
 
