@@ -5,3 +5,11 @@
 .white-text {
 	color: white;
 }
+
+.shadow-effect {
+	box-shadow: 3px 3px 14px 4px rgba(0, 0, 0, 0.3);
+}
+
+.round-corner {
+	border-radius: 10px;
+}
