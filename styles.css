@@ -1,25 +1,7 @@
-body,
-html {
-	height: 100%;
-}
-.background {
-	/* The image used */
-	background-image: img/bodybg.jpg;
-
-	/* Full height */
-	height: 100%;
-
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.footerBg {
+	background-color: black;
 }
 
-/* #twitterAPI {
-    max-height: 50px;
-    max-width: 100px;
-} */
-
-/* @media (650px) {
-	#twitterAPI align-content: right;
-} */
+.white-text {
+	color: white;
+}
